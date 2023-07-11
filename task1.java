@@ -9,10 +9,16 @@ public class task1 {
         //int sum = a + b;
         //System.out.println(sum);
         System.out.println(findSum(a, b));
+        System.out.println(findDif(a, b));
         
     }
     public static int  findSum(int a, int b){
         int sum = a + b;
         return sum;
+    }
+
+    public static int  findDif(int a, int b){
+        int dif = a - b;
+        return dif;
     }
 }
